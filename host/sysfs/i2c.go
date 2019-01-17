@@ -16,11 +16,11 @@ import (
 	"unsafe"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/i2c"
+	"github.com/umitron/periph/conn/i2c/i2creg"
+	"github.com/umitron/periph/conn/physic"
 )
 
 // I2CSetSpeedHook can be set by a driver to enable changing the I²C buses

@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/host/fs"
+	"github.com/umitron/periph/host/fs"
 )
 
 func TestSlice(t *testing.T) {

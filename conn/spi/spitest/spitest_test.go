@@ -11,12 +11,12 @@ import (
 	"log"
 	"testing"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/conntest"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpiotest"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/spi"
 )
 
 func TestRecordRaw(t *testing.T) {

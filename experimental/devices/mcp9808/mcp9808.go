@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/i2c"
+	"github.com/umitron/periph/conn/mmr"
+	"github.com/umitron/periph/conn/physic"
 )
 
 // Opts holds the configuration options.

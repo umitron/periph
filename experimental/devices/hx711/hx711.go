@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/experimental/conn/analog"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/experimental/conn/analog"
 )
 
 var (

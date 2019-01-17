@@ -10,9 +10,9 @@ import (
 	"image/color"
 	"testing"
 
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/gpio/gpiostream/gpiostreamtest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn/gpio/gpiostream"
+	"github.com/umitron/periph/conn/gpio/gpiostream/gpiostreamtest"
+	"github.com/umitron/periph/conn/physic"
 )
 
 func TestStream_NewBits_3(t *testing.T) {

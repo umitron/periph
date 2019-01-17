@@ -5,9 +5,9 @@
 package mt7688
 
 import (
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/pin"
+	"github.com/umitron/periph/host/sysfs"
 )
 
 // function specifies the active functionality of a pin. The alternative

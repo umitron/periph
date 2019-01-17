@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/devices/cap1xxx"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/i2c/i2creg"
+	"github.com/umitron/periph/devices/cap1xxx"
 )
 
 func Example() {

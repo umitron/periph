@@ -11,14 +11,14 @@ import (
 	"image/color"
 	"testing"
 
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spitest"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/umitron/periph/conn/conntest"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpiotest"
+	"github.com/umitron/periph/conn/i2c/i2ctest"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/spi"
+	"github.com/umitron/periph/conn/spi/spitest"
+	"github.com/umitron/periph/devices/ssd1306/image1bit"
 )
 
 func TestNewI2C_fail(t *testing.T) {

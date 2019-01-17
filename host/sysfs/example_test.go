@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"log"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/host"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/host"
+	"github.com/umitron/periph/host/sysfs"
 )
 
 func ExampleLEDByName() {

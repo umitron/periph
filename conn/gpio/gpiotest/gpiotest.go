@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/pin"
 )
 
 // Pin implements gpio.PinIO.

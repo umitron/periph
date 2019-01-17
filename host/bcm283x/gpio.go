@@ -13,15 +13,15 @@ import (
 	"time"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/distro"
-	"periph.io/x/periph/host/pmem"
-	"periph.io/x/periph/host/sysfs"
-	"periph.io/x/periph/host/videocore"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/gpio/gpiostream"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/pin"
+	"github.com/umitron/periph/host/distro"
+	"github.com/umitron/periph/host/pmem"
+	"github.com/umitron/periph/host/sysfs"
+	"github.com/umitron/periph/host/videocore"
 )
 
 // All the pins supported by the CPU.

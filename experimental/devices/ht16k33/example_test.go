@@ -8,9 +8,9 @@ import (
 	"log"
 	"time"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/experimental/devices/ht16k33"
-	"periph.io/x/periph/host"
+	"github.com/umitron/periph/conn/i2c/i2creg"
+	"github.com/umitron/periph/experimental/devices/ht16k33"
+	"github.com/umitron/periph/host"
 )
 
 func Example() {

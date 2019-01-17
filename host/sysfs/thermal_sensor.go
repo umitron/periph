@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/physic"
 )
 
 // ThermalSensors is all the sensors discovered on this host via sysfs.  It

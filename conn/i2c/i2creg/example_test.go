@@ -10,9 +10,9 @@ import (
 	"log"
 	"strings"
 
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/host"
+	"github.com/umitron/periph/conn/i2c"
+	"github.com/umitron/periph/conn/i2c/i2creg"
+	"github.com/umitron/periph/host"
 )
 
 func Example() {

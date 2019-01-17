@@ -8,8 +8,8 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/physic"
 )
 
 func TestPin_String(t *testing.T) {

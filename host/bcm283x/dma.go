@@ -49,10 +49,10 @@ import (
 	"time"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/host/pmem"
-	"periph.io/x/periph/host/videocore"
+	"github.com/umitron/periph/conn/gpio/gpiostream"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/host/pmem"
+	"github.com/umitron/periph/host/videocore"
 )
 
 const (

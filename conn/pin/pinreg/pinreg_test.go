@@ -7,10 +7,10 @@ package pinreg
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/pin"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/gpio/gpiotest"
+	"github.com/umitron/periph/conn/pin"
 )
 
 func TestAll(t *testing.T) {

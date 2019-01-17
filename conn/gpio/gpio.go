@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/pin"
 )
 
 // Interfaces

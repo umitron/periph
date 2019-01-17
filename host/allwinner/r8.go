@@ -10,8 +10,8 @@ package allwinner
 import (
 	"strings"
 
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/umitron/periph/conn/pin"
+	"github.com/umitron/periph/host/sysfs"
 )
 
 // R8 specific pins.

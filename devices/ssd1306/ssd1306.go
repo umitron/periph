@@ -16,13 +16,13 @@ import (
 	"image/color"
 	"image/draw"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/display"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/i2c"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/spi"
+	"github.com/umitron/periph/devices/ssd1306/image1bit"
 )
 
 // FrameRate determines scrolling speed.

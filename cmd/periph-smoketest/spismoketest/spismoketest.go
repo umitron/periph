@@ -18,11 +18,11 @@ import (
 	"math/rand"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/spi"
+	"github.com/umitron/periph/conn/spi/spireg"
 )
 
 // SmokeTest is imported by periph-smoketest.

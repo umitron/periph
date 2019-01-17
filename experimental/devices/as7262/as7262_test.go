@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiotest"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpiotest"
+	"github.com/umitron/periph/conn/i2c"
+	"github.com/umitron/periph/conn/i2c/i2ctest"
+	"github.com/umitron/periph/conn/physic"
 )
 
 func TestDev_Sense(t *testing.T) {

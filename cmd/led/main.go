@@ -13,8 +13,8 @@ import (
 	"log"
 	"os"
 
-	"periph.io/x/periph/host"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/umitron/periph/host"
+	"github.com/umitron/periph/host/sysfs"
 )
 
 func mainImpl() error {

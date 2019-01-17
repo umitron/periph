@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/fs"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/pin"
+	"github.com/umitron/periph/host/fs"
 )
 
 // LEDs is all the leds discovered on this host via sysfs.

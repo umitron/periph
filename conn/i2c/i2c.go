@@ -23,9 +23,9 @@ import (
 	"io"
 	"strconv"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/physic"
 )
 
 // Bus defines the interface a concrete I²C driver must implement.

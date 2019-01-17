@@ -7,9 +7,9 @@ package tm1637_test
 import (
 	"log"
 
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/devices/tm1637"
-	"periph.io/x/periph/host"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/devices/tm1637"
+	"github.com/umitron/periph/host"
 )
 
 func Example() {

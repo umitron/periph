@@ -10,11 +10,11 @@ import (
 	"reflect"
 	"time"
 
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/experimental/devices/mfrc522"
-	"periph.io/x/periph/experimental/devices/mfrc522/commands"
-	"periph.io/x/periph/host"
-	"periph.io/x/periph/host/rpi"
+	"github.com/umitron/periph/conn/spi/spireg"
+	"github.com/umitron/periph/experimental/devices/mfrc522"
+	"github.com/umitron/periph/experimental/devices/mfrc522/commands"
+	"github.com/umitron/periph/host"
+	"github.com/umitron/periph/host/rpi"
 )
 
 func Example() {

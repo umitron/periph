@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/experimental/devices/pca9548"
-	"periph.io/x/periph/host"
+	"github.com/umitron/periph/conn/i2c/i2creg"
+	"github.com/umitron/periph/experimental/devices/pca9548"
+	"github.com/umitron/periph/host"
 )
 
 func mainImpl() error {

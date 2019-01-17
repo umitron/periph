@@ -8,9 +8,9 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/physic"
+	"github.com/umitron/periph/conn/spi"
 )
 
 func TestOpen(t *testing.T) {

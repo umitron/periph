@@ -8,8 +8,8 @@ import (
 	"errors"
 
 	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
+	"github.com/umitron/periph/conn"
+	"github.com/umitron/periph/conn/i2c"
 )
 
 // FIXME: Expose public symbols as relevant. Do not export more than needed!

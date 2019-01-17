@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"sync"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/pin"
+	"github.com/umitron/periph/conn/gpio"
+	"github.com/umitron/periph/conn/gpio/gpioreg"
+	"github.com/umitron/periph/conn/pin"
 )
 
 // All contains all the on-board headers on a micro computer.
