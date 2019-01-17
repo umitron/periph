@@ -23,6 +23,7 @@ import (
 	"github.com/umitron/periph/conn/physic"
 	"github.com/umitron/periph/conn/spi"
 	"github.com/umitron/periph/devices/ssd1306/image1bit"
+	"github.com/umitron/periph/experimental/conn/uart"
 )
 
 // FrameRate determines scrolling speed.
@@ -116,6 +117,14 @@ func NewSPI(p spi.Port, dc gpio.PinOut, opts *Opts) (*Dev, error) {
 func NewI2C(i i2c.Bus, opts *Opts) (*Dev, error) {
 	// Maximum clock speed is 1/2.5µs = 400KHz.
 	return newDev(&i2c.Dev{Bus: i, Addr: 0x3C}, opts, false, nil)
+}
+
+func NewUmiUART(p uart.Port, opts *Opts) (*Dev, error) {
+	c, err := p.Connect(115200, uart.One, uart.NoParity, uart.NoFlow, 8)
+	if err != nil {
+		return nil, err
+	}
+	return newDev(c, opts, true, nil)
 }
 
 // Dev is an open handle to the display controller.
@@ -450,6 +459,10 @@ func (d *Dev) sendData(c []byte) error {
 		}
 	}
 	if d.spi {
+		if d.dc == nil {
+			// Umi UART.
+			return d.c.Tx(append([]byte{0}, c...), nil)
+		}
 		// 4-wire SPI.
 		if err := d.dc.Out(gpio.High); err != nil {
 			return err
@@ -467,8 +480,8 @@ func (d *Dev) sendCommand(c []byte) error {
 	}
 	if d.spi {
 		if d.dc == nil {
-			// 3-wire SPI.
-			return errors.New("ssd1306: 3-wire SPI mode is not yet implemented")
+			// Umi UART.
+			return d.c.Tx(append([]byte{1}, c...), nil)
 		}
 		// 4-wire SPI.
 		if err := d.dc.Out(gpio.Low); err != nil {
